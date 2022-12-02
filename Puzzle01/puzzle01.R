@@ -1,3 +1,5 @@
+# https://adventofcode.com/2022/day/1
+
 library(tidyverse)
 
 puzzle01 <- read.table(file = "data/puzzle01.csv", 
