@@ -66,7 +66,9 @@ for (j in 1:(nrow(dados)/3)){
            dados[j*3, ])
 }
 
+result <- factor(result, levels = c(letters, LETTERS))
 
+sum(as.numeric(result))
 
 
 
